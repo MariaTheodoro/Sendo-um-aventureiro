@@ -1,0 +1,33 @@
+body {
+    background-color: #edae7e;
+    color: rgb(6, 6, 6);
+    font-family: "Abril Fatface", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+   background-color: #ede27e;
+   color: rgb(0, 0, 0);
+   font-family: "Abril Fatface", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
